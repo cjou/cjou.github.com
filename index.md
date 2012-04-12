@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CJOU
-tagline: Begin Again
+tagline: On the Road
 ---
 {% include JB/setup %}
 
