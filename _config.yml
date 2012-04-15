@@ -3,7 +3,7 @@
 #permalink: /:categories/:year/:month/:day/:title
 permalink: /:categories/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "pages.html"]
 auto: true
 pygments: true
 markdown: rdiscount
@@ -28,7 +28,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.cjou.net
+production_url : http://cjou.net
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -81,9 +81,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false
+    provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : cjou
     livefyre :
       site_id : 123
     intensedebate :
