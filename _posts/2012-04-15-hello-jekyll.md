@@ -2,7 +2,7 @@
 layout: post
 permalink: /techlog/hello-jekyll/
 title: "Hello Jekyll"
-tagline: 入门及安装
+tagline: Jekyll 入门及安装
 description: "ff"
 category: "TechLog"
 tags: ["Jekyll"]
@@ -23,7 +23,7 @@ Jekyll 的特性如下：
 
 ###安装
 
-Jekyll 的部署和安装并没有想像中的简单，但相于 WordPress 等 LAMP 环境布署来说就简单得多。
+Jekyll 的安装和部署相于 WordPress 等 LAMP 环境布署来说简单得多。
 
 首先确保已经安装了 Ruby。 OSX 系统下已经默认安装 Ruby，因此只需更新一下 RubyGems 
 
@@ -73,11 +73,11 @@ $ cd XXX.github.com
 $ jekyll --server
 </pre>
 
-启动成功后在本地浏览器输入 http://localhost:4000/ 访问。
+启动成功后在本地浏览器输入 http://localhost:4000/ 进行访问。
 
 ### 部署
 
-Github Pages 是 Github 免费的项目主页、博客托管服务，并且支持自定义域名，唯一需要要做的就是 Push 本地代码到 Github
+Github Pages 是 Github 一项免费的项目主页、博客托管服务，并且支持自定义域名，唯一需要要做的就是 Push 本地代码到 Github ，它会自动生成整个站点
 
 <pre class="prettyprint" id="bash">
 $ git commit -a  -m "clone from jekyll bootstrap"
@@ -86,11 +86,14 @@ $ git push
 
 提交成功大约几分钟后就可以通过 http://XXX.github.com 来访问你的站点。
 
+
 ### 自定义域名
 
 Github Pages 支持 [Custom Domains](http://help.github.com/pages/#custom_domains)。只需在 XXX.github.com 项目根目录下建立文件 CNAME，文件内容为需要绑定的域名 ( 比如 blog.xxx.com )，并提交到 Github 上。然后添加一个该域名的 CNAME 并指向 XXX.github.com。而顶级域名的话添加A记录解析到 204.232.175.78 便可以了。
 
 成功后访问 http://XXX.github.com 就会自动跳转到自定义域名。
+
+
 
 
 
