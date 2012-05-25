@@ -12,7 +12,7 @@ tags: ["Jekyll"]
 
 [Jekyll](http://jekyllrb.com) 是一款使用 Ruby 开发的轻量级 Blog、静态网站发布程序 ( Generator )。跟 WordPress 等动态程序不同，它是根据相应的模板目录以及约定的结构作为站点构成的基础，从而生成一个完整的静态站点。由于生成的是全静态站点，可以将站点部署到 Apache 等任何支持静态页面的 Web 服务器上。
 
-Jekyll 同时也是 [ Github Pages ](http://pages.github.com/)的后台引擎，因此也可以选择将它托管到 Github Pages 上，完全免费并且支持自定义域名。
+Jekyll 同时也是 [ Github Pages ](http://pages.github.com/){:target="_blank"}的后台引擎，因此也可以选择将它托管到 Github Pages 上，完全免费并且支持自定义域名。
 
 Jekyll 的特性如下：
 
